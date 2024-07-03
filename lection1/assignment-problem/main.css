@@ -1,0 +1,61 @@
+body {
+  font-family: sans-serif;
+}
+
+li {
+  font-family: inherit;
+}
+
+li + li {
+  color: white;
+  background: black;
+}
+
+ol li {
+  color: white;
+  background: black;
+}
+
+#assignment-instructions {
+  color: rgb(216, 41, 224);
+}
+
+code {
+  font-family: monospace;
+  color: rgb(255, 0, 0);
+}
+
+.different code {
+  color: green;
+}
+
+/*
+Solution
+body {
+    font-family: sans-serif;
+}
+
+.highlighted-code {
+    color: green;
+}
+
+#assignment-instructions {
+    font-family: sans-serif;
+    color: blue;
+}
+
+code {
+    font-family: monospace;
+    color: red;
+}
+
+li + li {
+    background: black;
+    color: white;
+}
+
+ol li {
+    background: black;
+    color: white;
+}
+    */
